@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  ohdsiexamplestudyapp:
+    image: ohdsi/ohdsiexamplestudyapp:1.0.0
+    env_file: .env
+    build:
+      context: .
+      args:
+        APP_NAME: OhdsiExampleStudyApp
+    ports:
+      - "3838:3838"
