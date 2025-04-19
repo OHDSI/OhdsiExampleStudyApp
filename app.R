@@ -41,6 +41,6 @@ createShinyApp(
    config = shinyConfig,
    connectionDetails = connectionDetails,
    resultDatabaseSettings = createDefaultResultDatabaseSettings(schema = "ohdsiexamplestudy"),
-   title = "OHDSI Example Study"
-   description = "The OHDSI Example Study is designed to run across the OHDSI Evidence Network to provide a way to test Strategus and all HADES modules."
+   title = "OHDSI Example Study",
+   studyDescription = "The OHDSI Example Study is designed to run across the OHDSI Evidence Network to provide a way to test Strategus and all HADES modules."
 )
